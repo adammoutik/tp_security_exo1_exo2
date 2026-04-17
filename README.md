@@ -45,7 +45,3 @@ Response:
 
 The server starts on **http://localhost:8080**
 
-## Notes
-- **Encryption**: AES-128 ECB with PKCS5 padding, key is optional (defaults to built-in key)
-- **Hashing**: SHA-256 (one-way, cannot be decrypted)
-- The `key` field is optional for `/crypt` and `/decrypt` — if omitted, a default key is used
